@@ -1,0 +1,83 @@
+body{
+	position:absolute;
+	width:100%;
+	min-height:80%;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+body input{
+	text-align:center;
+	border:1px solid #bbbbbb;
+	border-radius: 5px;
+}
+#problem{
+	text-align:center;
+	font-size: 41px;
+}
+#problem input{
+	font-size: 41px;
+	font-family: sans-serif;
+}
+#problem input.wrong{
+	color:red;
+}
+#problem .answer-field{}
+#problem .answer-field:not(.active){
+	display:none;
+}
+#problem span{
+	background-color:white;
+}
+#problem span.wrong{
+	background-color:yellow;
+}
+#sprite{
+	width:600px;
+	margin:0 auto;
+	position:relative;
+}
+#scale{
+	width:100%;
+	margin-top:200px;
+}
+#arrows-wrap{
+	position:absolute;
+	width: 89.3%;
+	left: 4%;
+	bottom: 43px;
+}
+#arrows{
+	position:relative;
+}
+#arrows .arrow{
+	position:absolute;
+	bottom:0;
+	width:50%;
+	text-align: center;
+}
+#arrows .arrow:not(.active){
+	display:none;
+}
+#arrows .arrow .wrap{}
+#arrows .arrow .wrap span{
+	font-size:20px;
+}
+#arrows .arrow .wrap>*:not(.active){
+	display:none;
+}
+#arrows .arrow input{
+	font-size:20px;
+	color:black;
+}
+#arrows .arrow input.wrong{
+	color:red;
+}
+#arrows .arrow>img{
+	width:100%;
+	margin-top:10px;
+}
+
